@@ -79,7 +79,9 @@ else
         echo "$i" >> "$us_basic_file"
     done
 
+    cp "$us_basic_file" "$us_basic_file.bak"
     gzip "$us_basic_file"
+    mv "$us_basic_file.bak" "$us_basic_file"
 
     # Done
     exit 0
