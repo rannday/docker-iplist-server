@@ -79,6 +79,8 @@ else
         echo "$i" >> "$us_basic_file"
     done
 
+    gzip "$us_basic_file"
+
     # Done
     exit 0
 fi
