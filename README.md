@@ -1,5 +1,7 @@
 # docker-iplist-server
-Create a darkhttpd Docker to serve a downloaded RIPE IP list  
+Create a darkhttpd Docker to serve a downloadable IP list  
+
+Right, it just creates a list of IPv4 US addresses. The list is pulled from RIPE.  
 
 Clone repo - `git clone https://github.com/rannday/docker-iplist-server`  
 Build image - `docker build . -t iplists:latest`  
