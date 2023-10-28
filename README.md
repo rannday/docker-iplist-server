@@ -6,7 +6,7 @@ Docker image size - 7.41MB!
 
 1. Clone repo - `git clone https://github.com/rannday/docker-iplist-server` and `cd docker-iplist-server`  
 2. Build image - `docker build . -t iplists:latest`  
-3. Maybe change networking IP bindings in the compose file  
+3. Maybe change networking IP bindings in the compose file. Setup a proxy, even. Caddy is great.  
 4. Start compose - `docker compose up -d`  
 
 ## RIPE
