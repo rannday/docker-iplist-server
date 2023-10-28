@@ -1,0 +1,9 @@
+services:
+  app:
+    container_name: iplists
+    image: iplists:latest
+    ports:
+      - 80/tcp
+    volumes:
+      - ./lists:/var/www/iplists
+    restart: unless-stopped
