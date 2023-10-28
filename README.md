@@ -1,6 +1,11 @@
 # docker-iplist-server
 Create a darkhttpd Docker to serve a downloaded RIPE IP list  
 
+Clone repo - `git clone https://github.com/rannday/docker-iplist-server`  
+Build image - `docker build . -t iplists:latest`  
+Maybe change networking IP bindings in the compose file  
+Start compose - `docker compose up -d`  
+
 ## RIPE
 Pulls from the RIPE API with curl    
 https://stat.ripe.net/docs/02.data-api/country-resource-list.html

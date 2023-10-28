@@ -9,4 +9,4 @@ VOLUME /var/www/iplists
 
 EXPOSE 80
 
-CMD ["darkhttpd", "/var/www/iplists"]
+CMD ["darkhttpd", "/var/www/iplists", "--port", "9001"]
